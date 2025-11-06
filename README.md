@@ -1,5 +1,3 @@
-# LLM_Agent-for-articles-from-arXiv
-
 # PDF Agent — Interactive PDF Reader with AI, Figures, and Web Search
 
 This project is a **Streamlit app** that allows users to upload PDF files (such as research articles or contracts) and interact with them through a conversational AI agent.  
