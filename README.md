@@ -1,6 +1,6 @@
 # LLM_Agent-for-articles-from-arXiv
 
-# 🧠📄 PDF Agent — Interactive PDF Reader with AI, Figures, and Web Search
+# PDF Agent — Interactive PDF Reader with AI, Figures, and Web Search
 
 This project is a **Streamlit app** that allows users to upload PDF files (such as research articles or contracts) and interact with them through a conversational AI agent.  
 It integrates with **Ollama** to use local LLMs (like LLaMA 3), and supports **text + image extraction**, **semantic search**, and **optional web lookups** to enhance responses.
@@ -9,16 +9,16 @@ It integrates with **Ollama** to use local LLMs (like LLaMA 3), and supports **t
 
 ## Features
 
-- 📄 Extracts and cleans text from PDFs (using **PyMuPDF** or **pdfplumber**)  
-- 🖼️ Detects and renders figures or full PDF pages as images  
-- 🔍 Embeds PDF text with Ollama embeddings and retrieves relevant sections  
-- 💬 Allows chatting with the PDF content through an LLM hosted locally via Ollama  
-- 🌐 Optional web search via Google (for additional context)  
-- 🧠 Maintains a memory of the conversation inside the Streamlit session  
+-  Extracts and cleans text from PDFs (using **PyMuPDF** or **pdfplumber**)  
+-  Detects and renders figures or full PDF pages as images  
+-  Embeds PDF text with Ollama embeddings and retrieves relevant sections  
+-  Allows chatting with the PDF content through an LLM hosted locally via Ollama  
+-  Optional web search via Google (for additional context)  
+-  Maintains a memory of the conversation inside the Streamlit session  
 
 ---
 
-## 🧩 Installation
+## Installation
 
 ### 1. Clone the repository
 
