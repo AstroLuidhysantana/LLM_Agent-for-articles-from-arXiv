@@ -247,7 +247,7 @@ persona = st.sidebar.selectbox(
 
 custom_persona = ""
 if persona == "Personalidade Customizada":
-    custom_persona = st.sidebar.text_area("Descreva a personalidade", placeholder="Ex: Um analista reflexivo especializado em contratos.")
+    custom_persona = st.sidebar.text_area("Descreva a personalidade", placeholder="Ex: Um cosmologo quebrando a cabeca para calcular o melhor valor de H0.")
 
 if 'memory_context' not in st.session_state:
     st.session_state.memory_context = ""
